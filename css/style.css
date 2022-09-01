@@ -16,8 +16,9 @@ main{
     width: 70%;
     margin: auto;
 }
-p{
+.intestazione{
     text-align: center;
+    color: black;
 }
 img{
     width: 100px;
@@ -30,18 +31,40 @@ img{
     display: table;
     clear: both;
   }
-div{
+.box{
     width: calc( 93% / 3);
     float: left;
     background-color: rgb(15, 14, 23);
     height: 100px;
     margin-top: 50px;
+    display: inline;
   }
 h3{
-    display: inline-block;
-    vertical-align: top;
     color: white;
+    
 }
 .box2{
     margin-right: 35px;
+}
+img{
+    float: left;
+    display: inline;
+}
+span{
+    color: white;
+    padding: 15px;
+}
+a{
+    color:aquamarine;
+}
+.col{
+    display: inline;
+   padding: 10px;
+}
+strong{
+    font-size: 20px;
+}
+p{
+    color: white;
+    
 }
