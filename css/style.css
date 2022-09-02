@@ -33,12 +33,13 @@ img{
     clear: both;
   }
 .box{
-    width: calc( 93% / 3);
+    
     float: left;
     background-color: rgb(15, 14, 23);
     height: 100px;
     margin-top: 50px;
     display: inline;
+    width: calc( 93% / 3 );
   }
 h3{
     color: white;
